@@ -5,8 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin's Recipes</title>
+    <style>
+        body {background-color:rgb(219, 128, 53)}
+        .nav {text-align: center; list-style-type: none; margin: 0; padding: 0; border: 5px solid rgba(175, 139, 139, 0.801); background-color: #f3f3f3;
+    opacity: 0.5;}
+    #navbar {color: rgb(76, 207, 201); text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        display: inline; padding: 8px; margin: 160px; font-size: 50px; object-fit: cover;}
+        h1 { color: rgba(255, 232, 21, 0.87); text-shadow: -1px 0 rgb(194, 188, 188), 0 1px rgb(197, 192, 192), 2px 0 black, 0 -4px black;    text-align:center; font-size: 50px;}
+        .box {color: rgb(236, 236, 236); background-color:rgba(0, 0, 0, 0.452);  margin-left: 200px; opacity: 0.9; width: 1000px; 
+            height: 500px; padding: 10px; border: 5px solid rgb(251, 255, 2); margin: auto; box-shadow: inset; border-radius: 80px;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+        .recipe2 {font-size: 20px; color: rgb(243, 242, 236); text-align: center; position: relative; bottom:490px; left: 350px; word-wrap: break-word; width: 300px;}
+        .recipe1 {color: gold; position: relative; bottom:480px; left: 485px; font-size: 25px;}
+        .img {border: 2px solid whitesmoke; border-radius: 50px; position: relative; right: 350px; top: 15px;}
+        .ingred {font-size: 25px; left: 20px; position: relative; color: gold;}
+        .ingred2 {font-size: 18px;}
+        .prep {font-size: 20px; position: relative; bottom:850px; left: 800px;}
+        .clock {position: relative; left: 40px;}
+    </style>
+
+    <nav>
+        <ul class="nav">
+            <li id="navbar"><a href="../index.html">Homepage</a></li>
+        </ul>
+      </nav> 
 </head>
 <body>
-    
+    <h1>Sweet Spicy Air Fried Carrots</h1>
+    <div class="box">
+        <center><img class="img" src="../photos/airfrycarrot.webp" widht="250" height="200"></center>
+        <h3 class="ingred">Ingredients</h3>
+        <ul class="ingred2">
+            <li>1 serving cooking spray</li>
+            <li>1 tablespoon butter, melted</li>
+            <li>1 tablespoon hot honey</li>
+            <li>1 teaspon grated orange zest</li>
+            <li>1/2 teaspoon ground cardamom</li>
+            <li>1/2 pound baby carrots</li>
+            <li>1 tablespoon freshly squeezed orange juice</li>
+            <li>1 pinch salt and ground black pepper to taste</li>
+
+        </ul>
+        <h3 class="recipe1">Directions</h3>
+        <ul class="recipe2">
+            <p><strong>Step 1: </strong> Preheat air fryer to 400 degrees F. Spray basket with non-stick cooking spray.</p>
+            <p><strong>Step 2:</strong> Combine butter, honey, orange zest, and cardamom in a bowl. 
+                Remove 1 tablespoon of the sauce to a separate bowl and set aside. Add carrots to the remaining sauce and toss 
+                until all are well coated. Transfer carrots to the air fryer basket.</p>
+            <p><strong>Step 3: </strong> Air fry until carrots are roasted and fork tender, tossing every 7 minutes, for 15 to 22 minutes. 
+                Mix orange juice with reserved honey-butter sauce. Toss with carrots until well combined. Season with salt and pepper.</p>
+        </ul>
+        <div class="prep">
+            <img class="clock" src="../photos/clock.png" width="50px" height="50px">
+          <p>Prep Time: 5 Mins</p>
+          <p>Cook: 20 mins</p>
+          <p>Total: 25 mins</p>
+          <p>Servings: 2</p>
+          <p>Yield: 2 servings</p>
+          </div>
+    </div>
 </body>
 </html>

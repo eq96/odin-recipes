@@ -5,8 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin's Recipes</title>
+    <style>
+        body {background-color:rgb(219, 204, 117)}
+        .nav {text-align: center; list-style-type: none; margin: 0; padding: 0; border: 5px solid rgba(175, 139, 139, 0.801); background-color: #f3f3f3;
+    opacity: 0.5;}
+    #navbar {color: rgb(76, 207, 201); text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        display: inline; padding: 8px; margin: 160px; font-size: 50px; object-fit: cover;}
+        h1 { color: rgba(161, 158, 107, 0.87); text-shadow: -1px 0 rgb(194, 188, 188), 0 1px rgb(197, 192, 192), 2px 0 black, 0 -4px black;    text-align:center; font-size: 50px;}
+        .box {color: rgb(236, 236, 236); background-color:rgba(0, 0, 0, 0.452);  margin-left: 200px; opacity: 0.9; width: 1000px; 
+            height: 500px; padding: 10px; border: 5px solid rgb(251, 255, 2); margin: auto; box-shadow: inset; border-radius: 80px;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+        .recipe2 {font-size: 20px; color: rgb(243, 242, 236); text-align: center; position: relative; bottom:350px; left: 350px; word-wrap: break-word; width: 300px;}
+        .recipe1 {color: gold; position: relative; bottom:350px; left: 485px; font-size: 25px;}
+        .img {border: 2px solid whitesmoke; border-radius: 50px; position: relative; right: 350px; top: 15px;}
+        .ingred {font-size: 25px; left: 20px; position: relative; color: gold;}
+        .ingred2 {font-size: 18px;}
+        .prep {font-size: 20px; position: relative; bottom:620px; left: 800px;}
+        .clock {position: relative; left: 40px;}
+    </style>
+
+    <nav>
+        <ul class="nav">
+            <li id="navbar"><a href="../index.html">Homepage</a></li>
+        </ul>
+      </nav> 
 </head>
 <body>
-    
+    <h1>Deviled Eggs</h1>
+    <div class="box">
+        <center><img class="img" src="../photos/devileggs.webp" widht="250" height="200"></center>
+        <h3 class="ingred">Ingredients</h3>
+        <ul class="ingred2">
+            <li>6 hard-cooked eggs</li>
+            <li>2 tablespoons mayonnaise</li>
+            <li>1 teaspoon white sugar</li>
+            <li>1 teaspoon white vinegar</li>
+            <li>1 teaspoon prepared mustard</li>
+            <li>1/2 teaspoon salt</li>
+            <li>1 tablespoon finely chopped onion</li>
+            <li>1 tablespoon finely chopped celery</li>
+            <li>1 pinch paprika, or to tase</li>
+
+        </ul>
+        <h3 class="recipe1">Direction</h3>
+        <ul class="recipe2">
+            <p><strong>Step 1: </strong> Slice eggs in half lengthwise and remove yolks; set whites aside. Mash yolks with a fork in a small bowl. Stir in mayonnaise, sugar, vinegar, mustard, salt, onion, and celery; mix well. 
+                Stuff or pipe egg yolk mixture into egg whites. Sprinkle with paprika. Refrigerate until serving.</p>
+        </ul>
+        <div class="prep">
+            <img class="clock" src="../photos/clock.png" width="50px" height="50px">
+          <p>Prep Time: 15 mins</p>
+          <p>Total: 15 mins</p>
+          <p>Servings: 2</p>
+          <p>Yield: 2 servings</p>
+          </div>
+    </div>
 </body>
 </html>

@@ -1,16 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eddie, Teresa & Nevaeh</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odin's Recipes</title>
+  <style>
+    body {background-color:rgb(76, 150, 150)}
+    h1 {color: rgba(29, 198, 228, 0.801); text-shadow: -1px 0 rgb(194, 188, 188), 0 1px rgb(197, 192, 192), 2px 0 black, 0 -4px black;    text-align:center; font-size: 50px;}
+    .nav {text-align: center; list-style-type: none; margin: 0; padding: 0; border: 5px solid rgba(175, 139, 139, 0.801); background-color: #f3f3f3;
+    opacity: 0.5;}
+    #navbar {color: rgb(76, 207, 201); text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        display: inline; padding: 8px; margin: 160px; font-size: 18px; object-fit: cover;}
+    .content {gap:350px; display: flex; align-items: center;}
+    .item {display: flex; flex-direction: column; gap: 10px; align-items: center; width: 400px; text-align: center;}
+    .item img:hover {transform: scale(1.05); transition: all ease; border-radius: 15px; box-shadow: 0 0 5px rgb(243, 239, 6)}
+    div img {width: 350px; height: 450px; border-radius: 30px; border:12px solid rgba(17, 85, 187, 0.425)}
+    .itemtext {color: rgb(30, 63, 136); text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; font-size: 30px;}    
+  </style>
+  <nav>
+    <ul class="nav">
+        <li id="navbar"><a href="./recipes/carrots.html">Air Fryer Recipes</a></li>
+        <li id="navbar"><a href="./recipes/devileggs.html">Appetizers & Snacks</a></li>
+        <li id="navbar"><a href="./recipes/pudding.html">   Desert Recipes  </a></li>
+    </ul>
+  </nav>
 </head>
 <body>
-    <h1>Eddie, Teresa & Nevaeh's Collage</h1>
-    <p>"Home is where you are loved the most and act the worst" <em>-Majorie Pay Hinckley</em></p>
-    <p><strong><em>"Love begins by taking care of the closest ones, the ones at home.</em></strong>
-    </p>
-    <p><a href="./recipes/lasagna.html">Click here</a> to view our family.</p>
+    <h1>Q's Recipes</h1>
+    <div class="content">
+        <div class="item">
+            <a href="./recipes/carrots.html"><img src="./photos/airfrycarrot.webp"></a>
+            <p class="itemtext">Sweet Spicy Air Fried Carrots</p>
+        </div>
+        <div class="item">
+            <a href="./recipes/devileggs.html"><img src="./photos/devileggs.webp"></a>
+            <p class="itemtext">Deviled Eggs</p>
+        </div>
+        <div class="item">
+            <a href="./recipes/pudding.html"><img src="./photos/puddin.webp"></a>
+            <p class="itemtext">Chocolate Pudding</p>
+        </div>
+    </div>
 </body>
 </html>
